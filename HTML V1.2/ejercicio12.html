@@ -1,0 +1,89 @@
+<!--
+ENTIDAD:centro de biotecnologia agropecuaria
+FICHA: 2558346
+PROGRAMA:Analisi y desarrollo de software- ADSO
+AUTOR:Andres de avila 
+OBJETIVO:Uso de las etiquetas de HTML:h3,table,alt,td,br,strong,tr,cap
+FECHA CREACION:05 de agosto de 2022
+VERSION:3.0.0
+FECHA MODIFICACION:5/08/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" href="./css/ejercicio12.css">
+</head>
+
+<body>
+    <div id="container">
+        <h3 class="z">Tabla comparativa de las Caracteristicas tecnicas de los Reprodcutores MP3</h3>
+        <table>
+            <caption class="t2"> Comparativa de Reproductores MP3 </caption>
+            <tr>
+
+                <th abbr="Reproductor Mini" scope="col" colspan="3">
+                    <img src="./img/mpblanco.png" width="70" height="35"
+                        alt="imagen del reproductor MP3 pequeño de color blanco" />
+                    <img src="./img/mpne.png" width="80" height="45"
+                        alt="imagen del reproductor MP3 pequeño de color negro " />
+
+                    <br /><strong>MP3 mini </strong>
+                </th>
+                <th abbr="Reproductor Estandar" scope="col" colspan="2">
+                    <img src="./img/mp3blang.png" width="70" height="30"
+                        alt="imagen del reproductor MP3 grande de color blanco" />
+                    <img src="./img/mp3neg.png" width="80" height="47"
+                        alt="imagen del reproductor MP3 grande de color negro " />
+
+                    <br /><strong>MP3 grande </strong>
+                <th></th>
+            <tr>
+                <th class="z" scope="row" abbr="capacidad">capacidad de almacenamiento</th>
+                <td>4 GB <br /> (1.000)</td>
+                <td>8 GB <br /> (2.000)</td>
+                <td>16 GB <br /> (4.000)</td>
+                <td>30 GB <br /> (7.500)</td>
+                <td>80 GB <br /> (20.000)</td>
+            </tr>
+            <tr>
+                <th class="z" scope="row" abbr="colores disponibles">colores </th>
+                <td>
+                    <img src="./img/mpblanco.png" width="70" height="40" alt="color blanco " />
+                </td>
+                <td>
+                    <img src="./img/mpne.png" width="70" height="40" alt="color negro " />
+                    <img src="./img/mp3ver.png" width="70" height="40" alt="color verde " />
+                    <img src="./img/mp3azu.png" width="70" height="40" alt="color azul " />
+                    <img src="./img/mp3rosa.png" width="70" height="40" alt="color rosa " />
+
+                </td>
+                <td>
+                    <img src="./img/mp3neg.png" width="70" height="40" alt="color negro " />
+                </td>
+                <td colspan="2">
+                    <img src="./img/mpblanco.png" width="70" height="40" alt="color negro " />
+                    <img src="./img/mp3neg.png" width="70" height="40" alt="color negro " />
+                </td>
+            </tr>
+            <tr>
+                <th class="z" scope="row" abbr="Tamaño de la pantalla">Pantalla </th>
+                <td colspan="3">LCD de 3 cm (diagonal) con retroiluminacion</td>
+                <td colspan="2">LCD de 6 cm (diagonal) con retroiluminacion</td>
+            </tr>
+            <tr>
+                <th class="z" rowspan="2" scope="row" abbr="Tiempo de carga">Tiempo de carga </th>
+                <td rowspan="2" colspan="3">Unas 3 horas </td>
+                <td colspan="2">Unas 4 horas </td>
+            </tr>
+            <tr>
+                <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
